@@ -1,0 +1,50 @@
+:root {
+  --bg: #080b18;
+  --surface: #11162b;
+  --surface-2: #1a2140;
+  --border: #252d52;
+  --text: #e8ecff;
+  --muted: #949cc4;
+  --accent: #3d6dff;
+  --accent-soft: rgba(61, 109, 255, 0.18);
+  --danger: #ff6b6b;
+  --radius: 12px;
+
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(ellipse at top, rgba(61, 109, 255, 0.12), transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
